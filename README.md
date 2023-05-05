@@ -1,11 +1,11 @@
-About starlette-exporter
-========================
+About starlette-exporter-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/starlette-exporter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/stephenhillier/starlette_exporter
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/starlette-exporter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Prometheus metrics exporter for Starlette applications.
 
