@@ -1,5 +1,5 @@
 {% set name = "starlette-exporter" %}
-{% set version = "0.18.0" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/starlette_exporter-{{ version }}.tar.gz
-  sha256: 27e41ae4a3dcd74e6be1ebdab0a1bbc7f09dfc947c4455211b2e75ab9c56618a
+  sha256: bdd96d8557cdcc909fe80fc29d20fbccf3fc47efcc1f8277c4e96f4faf55232e
 
 build:
   noarch: python
