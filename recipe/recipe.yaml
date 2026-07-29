@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: starlette-exporter
-  version: 0.23.0
+  version: "0.24.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/starlette_exporter-${{ version }}.tar.gz
-  sha256: f80998db2d4a3462808a9bce56950046b113d3fab6ec6c20cb6de4431d974969
+  sha256: c09cb9be59d3d43f69d717c0108b90858ff226f33431493033803f8b7d3dec78
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
